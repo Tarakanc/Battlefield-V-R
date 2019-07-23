@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A18487C1-0C62-42ED-B1DB-8C8C103FA729}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Battlefield_V_R</RootNamespace>
+    <AssemblyName>Battlefield V-R</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>perspective-dice-six-faces-random_38559.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Core">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForm.BunifuShadowPanel">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuColorTransition">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuColorTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuFormDock">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPages">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSlider">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuToolTip">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuToolTip.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTransition">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuUserControl">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.BunifuUserControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.Drawer">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.Drawer.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.ToggleSwitch">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu.UI.WinForms.ToggleSwitch.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\RNAVigator\RNAVigator\bin\Release\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-video-to-gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-video-to-gif %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\of3k9ek31gy01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dcmu2zh-65c2e7f0-0513-478f-a4fb-243db9facc56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScreenShot_20190722191531.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\random-png-random-png-300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Question_Mark-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perspective-dice-six-faces-random_38559.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-destiny-2-call-of-duty-wwii-minigu-a-weapon-5addf3bf3b6797.3081866015244952952433.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perspective-dice-six-faces-random_385591.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="perspective-dice-six-faces-random_38559.ico" />
+    <Content Include="Resources\Class\Ass.png" />
+    <Content Include="Resources\Class\Med.png" />
+    <Content Include="Resources\Class\Sniper.png" />
+    <Content Include="Resources\Class\Sup.png" />
+    <Content Include="Resources\CUBE-loading.gif" />
+    <Content Include="Resources\ME\1471890103.jpg" />
+    <Content Include="Resources\ME\1511196808_mp-40-i-4.jpg" />
+    <Content Include="Resources\ME\600px-Beretta_38.jpg" />
+    <Content Include="Resources\ME\de-lisle-3.jpg" />
+    <Content Include="Resources\ME\e9f3064a37460e22935d3df9e26e53bb_XL.jpg" />
+    <Content Include="Resources\ME\IMG_8139.jpg" />
+    <Content Include="Resources\ME\mp28-II.jpg" />
+    <Content Include="Resources\ME\P1110211.jpg" />
+    <Content Include="Resources\ME\Pistolet_maszynowy_STEN,_Muzeum_Orła_Białego.jpg" />
+    <Content Include="Resources\ME\Suomi_KP31.png" />
+    <Content Include="Resources\ME\zk383-2.jpg" />
+    <Content Include="Resources\MA\1461202225_lewis2.jpg" />
+    <Content Include="Resources\MA\Bren.jpg" />
+    <Content Include="Resources\MA\deactivated-12-gauge-browning-automatic-5-made-by-fn-sold-1656-p.png" />
+    <Content Include="Resources\MA\fg 42.jpg" />
+    <Content Include="Resources\MA\Hotchkiss-M1922-6d5mm-for-greece-batey-haosef-1.jpg" />
+    <Content Include="Resources\MA\ls-26.jpg" />
+    <Content Include="Resources\MA\M1897_Trench_Gun.jpg" />
+    <Content Include="Resources\MA\mg 34.png" />
+    <Content Include="Resources\MA\mg 42.jpg" />
+    <Content Include="Resources\MA\SauerM30.png" />
+    <Content Include="Resources\MA\sig_ke7.jpg" />
+    <Content Include="Resources\MA\Steyr-Solothurn_MG-30_2.jpg" />
+    <Content Include="Resources\MA\vickers_k.jpg" />
+    <Content Include="Resources\SN\1470409720_luger-m1906-1.png" />
+    <Content Include="Resources\SN\Boys_Mk_I_AT_Rifle.jpg" />
+    <Content Include="Resources\SN\Dutch_Mannlicher_M1895_rifle.jpg" />
+    <Content Include="Resources\SN\Gevär_försöksmodell_1892_Krag-Jörgensen_Norge_-_Armémuseum.jpg" />
+    <Content Include="Resources\SN\Kar_98K_-_AM.021488.jpg" />
+    <Content Include="Resources\SN\Lee.jpg" />
+    <Content Include="Resources\SN\model 8.jpg" />
+    <Content Include="Resources\SN\p08.jpg" />
+    <Content Include="Resources\SN\ross rifle.jpg" />
+    <Content Include="Resources\SN\rsc.jpg" />
+    <Content Include="Resources\SN\zh.jpg" />
+    <Content Include="Resources\AS\3-3.jpg" />
+    <Content Include="Resources\AS\6c375e84d76de44895739202de495d50f849e20br1-700-426v2_00.jpg" />
+    <Content Include="Resources\AS\AG_M42_IRL.jpg" />
+    <Content Include="Resources\AS\gewher 1-5.jpg" />
+    <Content Include="Resources\AS\Gewher 43.jpg" />
+    <Content Include="Resources\AS\M1A1 Carabine.jpg" />
+    <Content Include="Resources\AS\Ribeyrolles_1918.png" />
+    <Content Include="Resources\AS\Selbstlader 1916.jpg" />
+    <Content Include="Resources\AS\STG 44.jpg" />
+    <Content Include="Resources\AS\Sturmgewehr 1-5.jpg" />
+    <Content Include="Resources\AS\TurnerSMLE.jpg" />
+    <Content Include="Resources\AS\Winchester M1907 SF.jpg" />
+    <None Include="Resources\tenor.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
