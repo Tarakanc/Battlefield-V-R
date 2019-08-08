@@ -63,9 +63,29 @@ namespace Battlefield_V_R.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap challeng {
+            get {
+                object obj = ResourceManager.GetObject("challeng", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Close {
             get {
                 object obj = ResourceManager.GetObject("Close", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CUBE_loading {
+            get {
+                object obj = ResourceManager.GetObject("CUBE_loading", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -124,9 +144,9 @@ namespace Battlefield_V_R.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap perspective_dice_six_faces_random_38559 {
+        internal static System.Drawing.Bitmap perspective {
             get {
-                object obj = ResourceManager.GetObject("perspective-dice-six-faces-random_38559", resourceCulture);
+                object obj = ResourceManager.GetObject("perspective", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -134,9 +154,9 @@ namespace Battlefield_V_R.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap perspective_dice_six_faces_random_385591 {
+        internal static System.Drawing.Bitmap perspective_dice_six_faces_random_38559 {
             get {
-                object obj = ResourceManager.GetObject("perspective-dice-six-faces-random_385591", resourceCulture);
+                object obj = ResourceManager.GetObject("perspective-dice-six-faces-random_38559", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -177,6 +197,16 @@ namespace Battlefield_V_R.Properties {
         internal static System.Drawing.Bitmap tenor {
             get {
                 object obj = ResourceManager.GetObject("tenor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tumblr_nx7i7br9IT1ukgahro1_500 {
+            get {
+                object obj = ResourceManager.GetObject("tumblr_nx7i7br9IT1ukgahro1_500", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

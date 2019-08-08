@@ -196,11 +196,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="perspective-dice-six-faces-random_38559.ico" />
+    <Content Include="Resources\challeng.jpg" />
+    <Content Include="Resources\CH\1380475294_24.jpg" />
+    <Content Include="Resources\CH\250px-RedFlaregun.png" />
+    <Content Include="Resources\CH\bomzh_w_kaliningrade.jpg" />
+    <Content Include="Resources\CH\GLA-demo.jpg" />
+    <Content Include="Resources\CH\Lib.jpg" />
+    <Content Include="Resources\CH\unknown.png" />
     <Content Include="Resources\Class\Ass.png" />
+    <Content Include="Resources\Class\Chall.jpg" />
     <Content Include="Resources\Class\Med.png" />
     <Content Include="Resources\Class\Sniper.png" />
     <Content Include="Resources\Class\Sup.png" />
-    <Content Include="Resources\CUBE-loading.gif" />
+    <Content Include="Resources\CUBE-loading.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\ME\1471890103.jpg" />
     <Content Include="Resources\ME\1511196808_mp-40-i-4.jpg" />
     <Content Include="Resources\ME\600px-Beretta_38.jpg" />
@@ -248,7 +258,9 @@
     <Content Include="Resources\AS\Sturmgewehr 1-5.jpg" />
     <Content Include="Resources\AS\TurnerSMLE.jpg" />
     <Content Include="Resources\AS\Winchester M1907 SF.jpg" />
+    <None Include="Resources\tumblr_nx7i7br9IT1ukgahro1_500.gif" />
     <None Include="Resources\tenor.gif" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

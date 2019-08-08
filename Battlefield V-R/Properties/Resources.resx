@@ -118,26 +118,29 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ezgif.com-video-to-gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ezgif.com-video-to-gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Question_Mark-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Question_Mark-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dcmu2zh-65c2e7f0-0513-478f-a4fb-243db9facc56" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dcmu2zh-65c2e7f0-0513-478f-a4fb-243db9facc56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="perspective-dice-six-faces-random_385591" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\perspective-dice-six-faces-random_385591.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="perspective-dice-six-faces-random_38559" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\perspective-dice-six-faces-random_38559.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ezgif.com-video-to-gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ezgif.com-video-to-gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="perspective" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perspective-dice-six-faces-random_385591.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="of3k9ek31gy01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\of3k9ek31gy01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tenor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tenor.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ScreenShot_20190722191531" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ScreenShot_20190722191531.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kisspng-computer-icons-destiny-2-call-of-duty-wwii-minigu-a-weapon-5addf3bf3b6797.3081866015244952952433" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kisspng-computer-icons-destiny-2-call-of-duty-wwii-minigu-a-weapon-5addf3bf3b6797.3081866015244952952433.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,10 +151,16 @@
   <data name="ezgif.com-video-to-gif (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ezgif.com-video-to-gif (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="of3k9ek31gy01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\of3k9ek31gy01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kisspng-computer-icons-destiny-2-call-of-duty-wwii-minigu-a-weapon-5addf3bf3b6797.3081866015244952952433" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-computer-icons-destiny-2-call-of-duty-wwii-minigu-a-weapon-5addf3bf3b6797.3081866015244952952433.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tenor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tenor.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tumblr_nx7i7br9IT1ukgahro1_500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tumblr_nx7i7br9IT1ukgahro1_500.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="challeng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\challeng.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CUBE_loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\cube-loading.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
