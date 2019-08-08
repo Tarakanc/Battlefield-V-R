@@ -30,7 +30,7 @@ namespace Battlefield_V_R
             pictureBox3.Hide();
             //this.bunifuFlatButton3.Iconimage = Image.FromFile(@"C:\Users\vlad1\Source\Repos\Battlefield V-R\Battlefield V-R\Resources\perspective-dice-six-faces-random_385591.png");
             this.bunifuFlatButton3.Iconimage = Properties.Resources.perspective;
-            string[] paths1 = Directory.GetFiles(@"C:\Users\vlad1\Source\Repos\Battlefield V-R\Battlefield V-R\Resources\Class\");
+            string[] paths1 = Directory.GetFiles(@"Resources\Class\");
             
             List<string> images1 = paths1.ToList();
             
@@ -38,7 +38,7 @@ namespace Battlefield_V_R
             if(bunifuiOSSwitch1.Value==true)
             {
                 pictureBoxClass.Image = Properties.Resources.challeng;
-                string[] pathsCH = Directory.GetFiles(@"C:\Users\vlad1\Source\Repos\Battlefield V-R\Battlefield V-R\Resources\CH\");
+                string[] pathsCH = Directory.GetFiles(@"Resources\CH\");
                 List<string> imagesCH = pathsCH.ToList();
 
                 pictureBoxWeapon.ImageLocation = pathsCH[random1.Next(0, 6)];
@@ -47,7 +47,7 @@ namespace Battlefield_V_R
             {
                 if (pictureBoxClass.ImageLocation.Contains("Ass.png"))
                 {
-                    string[] pathsASS = Directory.GetFiles(@"C:\Users\vlad1\Source\Repos\Battlefield V-R\Battlefield V-R\Resources\AS\");
+                    string[] pathsASS = Directory.GetFiles(@"Resources\AS\");
                     List<string> imagesASS = pathsASS.ToList();
 
                     pictureBoxWeapon.ImageLocation = pathsASS[random1.Next(0, 12)];
@@ -55,7 +55,7 @@ namespace Battlefield_V_R
                 }
                 if (pictureBoxClass.ImageLocation.Contains("Chall.jpg"))
                 {
-                    string[] pathsCH = Directory.GetFiles(@"C:\Users\vlad1\Source\Repos\Battlefield V-R\Battlefield V-R\Resources\CH\");
+                    string[] pathsCH = Directory.GetFiles(@"Resources\CH\");
                     List<string> imagesCH = pathsCH.ToList();
 
                     pictureBoxWeapon.ImageLocation = pathsCH[random1.Next(0, 6)];
@@ -63,7 +63,7 @@ namespace Battlefield_V_R
                 }
                 else if (pictureBoxClass.ImageLocation.Contains("Med.png"))
                 {
-                    string[] pathsMED = Directory.GetFiles(@"C:\Users\vlad1\Source\Repos\Battlefield V-R\Battlefield V-R\Resources\ME\");
+                    string[] pathsMED = Directory.GetFiles(@"Resources\ME\");
                     List<string> imagesMED = pathsMED.ToList();
 
                     pictureBoxWeapon.ImageLocation = pathsMED[random1.Next(0, 11)];
@@ -71,7 +71,7 @@ namespace Battlefield_V_R
                 }
                 else if (pictureBoxClass.ImageLocation.Contains("Sup.png"))
                 {
-                    string[] pathsMA = Directory.GetFiles(@"C:\Users\vlad1\Source\Repos\Battlefield V-R\Battlefield V-R\Resources\MA\");
+                    string[] pathsMA = Directory.GetFiles(@"Resources\MA\");
                     List<string> imagesMA = pathsMA.ToList();
                     Random randomMA = new Random();
                     pictureBoxWeapon.ImageLocation = pathsMA[randomMA.Next(0, 13)];
@@ -79,7 +79,7 @@ namespace Battlefield_V_R
                 }
                 else if (pictureBoxClass.ImageLocation.Contains("Sniper.png"))
                 {
-                    string[] pathsSN = Directory.GetFiles(@"C:\Users\vlad1\Source\Repos\Battlefield V-R\Battlefield V-R\Resources\SN\");
+                    string[] pathsSN = Directory.GetFiles(@"Resources\SN\");
                     List<string> imagesSN = pathsSN.ToList();
 
                     pictureBoxWeapon.ImageLocation = pathsSN[random1.Next(0, 11)];
