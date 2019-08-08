@@ -31,7 +31,7 @@ namespace Battlefield_V_R
             //this.bunifuFlatButton3.Iconimage = Image.FromFile(@"C:\Users\vlad1\Source\Repos\Battlefield V-R\Battlefield V-R\Resources\perspective-dice-six-faces-random_385591.png");
             this.bunifuFlatButton3.Iconimage = Properties.Resources.perspective;
             string[] paths1 = Directory.GetFiles(@"C:\Users\vlad1\Source\Repos\Battlefield V-R\Battlefield V-R\Resources\Class\");
-
+            
             List<string> images1 = paths1.ToList();
             
             pictureBoxClass.ImageLocation = paths1[random1.Next(0, 5)];

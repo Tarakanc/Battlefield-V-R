@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -162,105 +177,260 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ezgif.com-video-to-gif.gif" />
+    <None Include="Resources\ezgif.com-video-to-gif.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ezgif.com-video-to-gif %281%29.gif" />
+    <None Include="Resources\ezgif.com-video-to-gif %281%29.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\of3k9ek31gy01.png" />
+    <None Include="Resources\of3k9ek31gy01.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\dcmu2zh-65c2e7f0-0513-478f-a4fb-243db9facc56.png" />
+    <None Include="Resources\dcmu2zh-65c2e7f0-0513-478f-a4fb-243db9facc56.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ScreenShot_20190722191531.png" />
+    <None Include="Resources\ScreenShot_20190722191531.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\random-png-random-png-300.png" />
+    <None Include="Resources\random-png-random-png-300.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Question_Mark-512.png" />
+    <None Include="Resources\Question_Mark-512.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\perspective-dice-six-faces-random_38559.png" />
+    <None Include="Resources\perspective-dice-six-faces-random_38559.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\kisspng-computer-icons-destiny-2-call-of-duty-wwii-minigu-a-weapon-5addf3bf3b6797.3081866015244952952433.png" />
+    <None Include="Resources\kisspng-computer-icons-destiny-2-call-of-duty-wwii-minigu-a-weapon-5addf3bf3b6797.3081866015244952952433.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Close.png" />
+    <None Include="Resources\Close.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\perspective-dice-six-faces-random_385591.png" />
+    <None Include="Resources\perspective-dice-six-faces-random_385591.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="perspective-dice-six-faces-random_38559.ico" />
-    <Content Include="Resources\challeng.jpg" />
-    <Content Include="Resources\CH\1380475294_24.jpg" />
-    <Content Include="Resources\CH\250px-RedFlaregun.png" />
-    <Content Include="Resources\CH\bomzh_w_kaliningrade.jpg" />
-    <Content Include="Resources\CH\GLA-demo.jpg" />
-    <Content Include="Resources\CH\Lib.jpg" />
-    <Content Include="Resources\CH\unknown.png" />
-    <Content Include="Resources\Class\Ass.png" />
-    <Content Include="Resources\Class\Chall.jpg" />
-    <Content Include="Resources\Class\Med.png" />
-    <Content Include="Resources\Class\Sniper.png" />
-    <Content Include="Resources\Class\Sup.png" />
+    <Content Include="Resources\challeng.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\CH\1380475294_24.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\CH\250px-RedFlaregun.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\CH\bomzh_w_kaliningrade.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\CH\GLA-demo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\CH\Lib.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\CH\unknown.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Class\Ass.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Class\Chall.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Class\Med.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Class\Sniper.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Class\Sup.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\CUBE-loading.gif">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resources\ME\1471890103.jpg" />
-    <Content Include="Resources\ME\1511196808_mp-40-i-4.jpg" />
-    <Content Include="Resources\ME\600px-Beretta_38.jpg" />
-    <Content Include="Resources\ME\de-lisle-3.jpg" />
-    <Content Include="Resources\ME\e9f3064a37460e22935d3df9e26e53bb_XL.jpg" />
-    <Content Include="Resources\ME\IMG_8139.jpg" />
-    <Content Include="Resources\ME\mp28-II.jpg" />
-    <Content Include="Resources\ME\P1110211.jpg" />
-    <Content Include="Resources\ME\Pistolet_maszynowy_STEN,_Muzeum_Orła_Białego.jpg" />
-    <Content Include="Resources\ME\Suomi_KP31.png" />
-    <Content Include="Resources\ME\zk383-2.jpg" />
-    <Content Include="Resources\MA\1461202225_lewis2.jpg" />
-    <Content Include="Resources\MA\Bren.jpg" />
-    <Content Include="Resources\MA\deactivated-12-gauge-browning-automatic-5-made-by-fn-sold-1656-p.png" />
-    <Content Include="Resources\MA\fg 42.jpg" />
-    <Content Include="Resources\MA\Hotchkiss-M1922-6d5mm-for-greece-batey-haosef-1.jpg" />
-    <Content Include="Resources\MA\ls-26.jpg" />
-    <Content Include="Resources\MA\M1897_Trench_Gun.jpg" />
-    <Content Include="Resources\MA\mg 34.png" />
-    <Content Include="Resources\MA\mg 42.jpg" />
-    <Content Include="Resources\MA\SauerM30.png" />
-    <Content Include="Resources\MA\sig_ke7.jpg" />
-    <Content Include="Resources\MA\Steyr-Solothurn_MG-30_2.jpg" />
-    <Content Include="Resources\MA\vickers_k.jpg" />
-    <Content Include="Resources\SN\1470409720_luger-m1906-1.png" />
-    <Content Include="Resources\SN\Boys_Mk_I_AT_Rifle.jpg" />
-    <Content Include="Resources\SN\Dutch_Mannlicher_M1895_rifle.jpg" />
-    <Content Include="Resources\SN\Gevär_försöksmodell_1892_Krag-Jörgensen_Norge_-_Armémuseum.jpg" />
-    <Content Include="Resources\SN\Kar_98K_-_AM.021488.jpg" />
-    <Content Include="Resources\SN\Lee.jpg" />
-    <Content Include="Resources\SN\model 8.jpg" />
-    <Content Include="Resources\SN\p08.jpg" />
-    <Content Include="Resources\SN\ross rifle.jpg" />
-    <Content Include="Resources\SN\rsc.jpg" />
-    <Content Include="Resources\SN\zh.jpg" />
-    <Content Include="Resources\AS\3-3.jpg" />
-    <Content Include="Resources\AS\6c375e84d76de44895739202de495d50f849e20br1-700-426v2_00.jpg" />
-    <Content Include="Resources\AS\AG_M42_IRL.jpg" />
-    <Content Include="Resources\AS\gewher 1-5.jpg" />
-    <Content Include="Resources\AS\Gewher 43.jpg" />
-    <Content Include="Resources\AS\M1A1 Carabine.jpg" />
-    <Content Include="Resources\AS\Ribeyrolles_1918.png" />
-    <Content Include="Resources\AS\Selbstlader 1916.jpg" />
-    <Content Include="Resources\AS\STG 44.jpg" />
-    <Content Include="Resources\AS\Sturmgewehr 1-5.jpg" />
-    <Content Include="Resources\AS\TurnerSMLE.jpg" />
-    <Content Include="Resources\AS\Winchester M1907 SF.jpg" />
-    <None Include="Resources\tumblr_nx7i7br9IT1ukgahro1_500.gif" />
-    <None Include="Resources\tenor.gif" />
+    <Content Include="Resources\ME\1471890103.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ME\1511196808_mp-40-i-4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ME\600px-Beretta_38.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ME\de-lisle-3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ME\e9f3064a37460e22935d3df9e26e53bb_XL.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ME\IMG_8139.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ME\mp28-II.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ME\P1110211.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ME\Pistolet_maszynowy_STEN,_Muzeum_Orła_Białego.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ME\Suomi_KP31.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\ME\zk383-2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\MA\1461202225_lewis2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\MA\Bren.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\MA\deactivated-12-gauge-browning-automatic-5-made-by-fn-sold-1656-p.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\MA\fg 42.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\MA\Hotchkiss-M1922-6d5mm-for-greece-batey-haosef-1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\MA\ls-26.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\MA\M1897_Trench_Gun.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\MA\mg 34.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\MA\mg 42.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\MA\SauerM30.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\MA\sig_ke7.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\MA\Steyr-Solothurn_MG-30_2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\MA\vickers_k.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\SN\1470409720_luger-m1906-1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\SN\Boys_Mk_I_AT_Rifle.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\SN\Dutch_Mannlicher_M1895_rifle.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\SN\Gevär_försöksmodell_1892_Krag-Jörgensen_Norge_-_Armémuseum.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\SN\Kar_98K_-_AM.021488.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\SN\Lee.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\SN\model 8.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\SN\p08.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\SN\ross rifle.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\SN\rsc.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\SN\zh.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AS\3-3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AS\6c375e84d76de44895739202de495d50f849e20br1-700-426v2_00.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AS\AG_M42_IRL.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AS\gewher 1-5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AS\Gewher 43.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AS\M1A1 Carabine.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AS\Ribeyrolles_1918.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AS\Selbstlader 1916.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AS\STG 44.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AS\Sturmgewehr 1-5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AS\TurnerSMLE.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\AS\Winchester M1907 SF.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\tumblr_nx7i7br9IT1ukgahro1_500.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\tenor.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
